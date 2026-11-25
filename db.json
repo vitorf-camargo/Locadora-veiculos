@@ -1,0 +1,35 @@
+{
+  "marcas": [
+    { "id": "1", "nome": "Volkswagen" },
+    { "id": "2", "nome": "Chevrolet" },
+    { "id": "3", "nome": "Toyota" }
+  ],
+  "categorias": [
+    { "id": "1", "nome": "Economico", "valorLocacao": 120.0 },
+    { "id": "2", "nome": "Intermediario", "valorLocacao": 180.0 },
+    { "id": "3", "nome": "SUV", "valorLocacao": 260.0 }
+  ],
+  "modelos": [
+    { "id": "1", "nome": "Gol", "ano": 2024, "marcaId": "1", "categoriaId": "1" },
+    { "id": "2", "nome": "Onix", "ano": 2023, "marcaId": "2", "categoriaId": "2" },
+    { "id": "3", "nome": "Corolla Cross", "ano": 2024, "marcaId": "3", "categoriaId": "3" }
+  ],
+  "veiculos": [
+    { "id": "1", "chassi": "9BWZZZ377VT004251", "placa": "ABC1D23", "anoFabricacao": 2024, "cor": "Prata", "kmRodado": 15000, "modeloId": "1" },
+    { "id": "2", "chassi": "9BGKS48X0EG123456", "placa": "DEF4E56", "anoFabricacao": 2023, "cor": "Branco", "kmRodado": 22000, "modeloId": "2" },
+    { "id": "3", "chassi": "9BRBD3HE4M0123789", "placa": "GHI7F89", "anoFabricacao": 2024, "cor": "Preto", "kmRodado": 8000, "modeloId": "3" }
+  ],
+  "manutencoes": [
+    { "id": "1", "data": "2026-03-10", "descricao": "Troca de oleo", "valor": 250.0, "veiculoId": "1" }
+  ],
+  "clientes": [
+    { "id": "1", "nome": "Joao Silva", "cpf": "11122233344", "cnh": "12345678900", "validadeCnh": "2028-05-20", "telefone": "11988887777", "email": "joao@email.com", "endereco": "Rua A, 100" },
+    { "id": "2", "nome": "Maria Souza", "cpf": "22233344455", "cnh": "23456789011", "validadeCnh": "2027-11-15", "telefone": "11977776666", "email": "maria@email.com", "endereco": "Rua B, 200" },
+    { "id": "3", "nome": "Pedro Lima", "cpf": "33344455566", "cnh": "34567890122", "validadeCnh": "2026-01-01", "telefone": "11966665555", "email": "pedro@email.com", "endereco": "Rua C, 300" }
+  ],
+  "locacoes": [],
+  "contratos": [],
+  "vistorias": [],
+  "pagamentos": [],
+  "notasFiscais": []
+}
