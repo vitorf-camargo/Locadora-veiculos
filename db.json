@@ -1,35 +1,281 @@
 {
   "marcas": [
-    { "id": "1", "nome": "Volkswagen" },
-    { "id": "2", "nome": "Chevrolet" },
-    { "id": "3", "nome": "Toyota" }
+    {
+      "id": "1",
+      "nome": "Volkswagen"
+    },
+    {
+      "id": "2",
+      "nome": "Chevrolet"
+    },
+    {
+      "id": "3",
+      "nome": "Toyota"
+    },
+    {
+      "nome": "teste",
+      "id": "RyZMx8t"
+    }
   ],
   "categorias": [
-    { "id": "1", "nome": "Economico", "valorLocacao": 120.0 },
-    { "id": "2", "nome": "Intermediario", "valorLocacao": 180.0 },
-    { "id": "3", "nome": "SUV", "valorLocacao": 260.0 }
+    {
+      "id": "1",
+      "nome": "Economico",
+      "valorLocacao": 120
+    },
+    {
+      "id": "2",
+      "nome": "Intermediario",
+      "valorLocacao": 180
+    },
+    {
+      "id": "3",
+      "nome": "SUV",
+      "valorLocacao": 260
+    },
+    {
+      "nome": "teste",
+      "valorLocacao": 2521,
+      "id": "voF1pUq"
+    }
   ],
   "modelos": [
-    { "id": "1", "nome": "Gol", "ano": 2024, "marcaId": "1", "categoriaId": "1" },
-    { "id": "2", "nome": "Onix", "ano": 2023, "marcaId": "2", "categoriaId": "2" },
-    { "id": "3", "nome": "Corolla Cross", "ano": 2024, "marcaId": "3", "categoriaId": "3" }
+    {
+      "id": "1",
+      "nome": "Gol",
+      "ano": 2024,
+      "marcaId": "1",
+      "categoriaId": "1"
+    },
+    {
+      "id": "2",
+      "nome": "Onix",
+      "ano": 2023,
+      "marcaId": "2",
+      "categoriaId": "2"
+    },
+    {
+      "id": "3",
+      "nome": "Corolla Cross",
+      "ano": 2024,
+      "marcaId": "3",
+      "categoriaId": "3"
+    },
+    {
+      "nome": "teste",
+      "ano": 2026,
+      "marcaId": "RyZMx8t",
+      "categoriaId": "voF1pUq",
+      "id": "GbmbeYq"
+    }
   ],
   "veiculos": [
-    { "id": "1", "chassi": "9BWZZZ377VT004251", "placa": "ABC1D23", "anoFabricacao": 2024, "cor": "Prata", "kmRodado": 15000, "modeloId": "1" },
-    { "id": "2", "chassi": "9BGKS48X0EG123456", "placa": "DEF4E56", "anoFabricacao": 2023, "cor": "Branco", "kmRodado": 22000, "modeloId": "2" },
-    { "id": "3", "chassi": "9BRBD3HE4M0123789", "placa": "GHI7F89", "anoFabricacao": 2024, "cor": "Preto", "kmRodado": 8000, "modeloId": "3" }
+    {
+      "id": "1",
+      "chassi": "9BWZZZ377VT004251",
+      "placa": "ABC1D23",
+      "anoFabricacao": 2024,
+      "cor": "Prata",
+      "kmRodado": 400,
+      "modeloId": "1"
+    },
+    {
+      "id": "2",
+      "chassi": "9BGKS48X0EG123456",
+      "placa": "DEF4E56",
+      "anoFabricacao": 2023,
+      "cor": "Branco",
+      "kmRodado": 22000,
+      "modeloId": "2"
+    },
+    {
+      "id": "3",
+      "chassi": "9BRBD3HE4M0123789",
+      "placa": "GHI7F89",
+      "anoFabricacao": 2024,
+      "cor": "Preto",
+      "kmRodado": 8000,
+      "modeloId": "3"
+    },
+    {
+      "chassi": "asdadqwwweqwe",
+      "placa": "asdasdad",
+      "anoFabricacao": 2026,
+      "cor": "azul",
+      "kmRodado": 200,
+      "modeloId": "1",
+      "id": "uoH8c7e"
+    }
   ],
   "manutencoes": [
-    { "id": "1", "data": "2026-03-10", "descricao": "Troca de oleo", "valor": 250.0, "veiculoId": "1" }
+    {
+      "id": "1",
+      "data": "2026-03-10",
+      "descricao": "Troca de oleo",
+      "valor": 250,
+      "veiculoId": "1"
+    },
+    {
+      "data": "2027-12-12",
+      "descricao": "",
+      "valor": 500,
+      "veiculoId": "uoH8c7e",
+      "id": "8CoGgL1"
+    }
   ],
   "clientes": [
-    { "id": "1", "nome": "Joao Silva", "cpf": "11122233344", "cnh": "12345678900", "validadeCnh": "2028-05-20", "telefone": "11988887777", "email": "joao@email.com", "endereco": "Rua A, 100" },
-    { "id": "2", "nome": "Maria Souza", "cpf": "22233344455", "cnh": "23456789011", "validadeCnh": "2027-11-15", "telefone": "11977776666", "email": "maria@email.com", "endereco": "Rua B, 200" },
-    { "id": "3", "nome": "Pedro Lima", "cpf": "33344455566", "cnh": "34567890122", "validadeCnh": "2026-01-01", "telefone": "11966665555", "email": "pedro@email.com", "endereco": "Rua C, 300" }
+    {
+      "id": "1",
+      "nome": "Joao Silva",
+      "cpf": "11122233344",
+      "cnh": "12345678900",
+      "validadeCnh": "2028-05-20",
+      "telefone": "11988887777",
+      "email": "joao@email.com",
+      "endereco": "Rua A, 100"
+    },
+    {
+      "id": "2",
+      "nome": "Maria Souza",
+      "cpf": "22233344455",
+      "cnh": "23456789011",
+      "validadeCnh": "2027-11-15",
+      "telefone": "11977776666",
+      "email": "maria@email.com",
+      "endereco": "Rua B, 200"
+    },
+    {
+      "id": "3",
+      "nome": "Pedro Lima",
+      "cpf": "33344455566",
+      "cnh": "34567890122",
+      "validadeCnh": "2026-01-01",
+      "telefone": "11966665555",
+      "email": "pedro@email.com",
+      "endereco": "Rua C, 300"
+    }
   ],
-  "locacoes": [],
-  "contratos": [],
-  "vistorias": [],
+  "locacoes": [
+    {
+      "dataRetirada": "2026-12-12",
+      "dataDevolucaoPrevista": "2026-12-15",
+      "kmRetirada": 400,
+      "valorTotal": 120,
+      "status": "FINALIZADA",
+      "clienteId": "1",
+      "veiculoId": "1",
+      "id": 1,
+      "dataDevolucaoReal": "2026-11-26",
+      "kmDevolucao": 400
+    },
+    {
+      "dataRetirada": "1111-11-11",
+      "dataDevolucaoPrevista": "1111-11-12",
+      "kmRetirada": 500,
+      "valorTotal": 120,
+      "status": "ABERTA",
+      "clienteId": "1",
+      "veiculoId": "uoH8c7e",
+      "id": 2
+    },
+    {
+      "dataRetirada": "1212-12-12",
+      "dataDevolucaoPrevista": "1212-12-13",
+      "kmRetirada": 500,
+      "valorTotal": 260,
+      "status": "ABERTA",
+      "clienteId": "1",
+      "veiculoId": "3",
+      "id": 3
+    },
+    {
+      "dataRetirada": "1212-12-12",
+      "dataDevolucaoPrevista": "1212-12-13",
+      "kmRetirada": 500,
+      "valorTotal": 180,
+      "status": "ABERTA",
+      "clienteId": "2",
+      "veiculoId": "2",
+      "id": 4
+    }
+  ],
+  "contratos": [
+    {
+      "numero": "CT-1795711570452",
+      "dataEmissao": "2026-11-26",
+      "termos": "Contrato de locacao gerado automaticamente ao registrar a locacao.",
+      "locacaoId": 1,
+      "id": 1
+    },
+    {
+      "numero": "CT-1795711687978",
+      "dataEmissao": "2026-11-26",
+      "termos": "Contrato de locacao gerado automaticamente ao registrar a locacao.",
+      "locacaoId": 2,
+      "id": 2
+    },
+    {
+      "numero": "CT-1795711736139",
+      "dataEmissao": "2026-11-26",
+      "termos": "Contrato de locacao gerado automaticamente ao registrar a locacao.",
+      "locacaoId": 3,
+      "id": 3
+    },
+    {
+      "numero": "CT-1795711747351",
+      "dataEmissao": "2026-11-26",
+      "termos": "Contrato de locacao gerado automaticamente ao registrar a locacao.",
+      "locacaoId": 4,
+      "id": 4
+    }
+  ],
+  "vistorias": [
+    {
+      "tipo": "RETIRADA",
+      "data": "2026-11-26",
+      "km": 400,
+      "nivelCombustivel": "Cheio",
+      "observacoes": "",
+      "locacaoId": 1,
+      "id": 1
+    },
+    {
+      "tipo": "RETIRADA",
+      "data": "2026-11-26",
+      "km": 500,
+      "nivelCombustivel": "",
+      "observacoes": "",
+      "locacaoId": 2,
+      "id": 2
+    },
+    {
+      "tipo": "RETIRADA",
+      "data": "2026-11-26",
+      "km": 500,
+      "nivelCombustivel": "Cheio",
+      "observacoes": "teste",
+      "locacaoId": 4,
+      "id": 3
+    },
+    {
+      "tipo": "DEVOLUCAO",
+      "data": "2026-11-26",
+      "km": 400,
+      "nivelCombustivel": "",
+      "observacoes": "",
+      "locacaoId": "1",
+      "id": 4
+    }
+  ],
   "pagamentos": [],
-  "notasFiscais": []
+  "notasFiscais": [
+    {
+      "numero": "NF-1795711772565",
+      "serie": "1",
+      "dataEmissao": "2026-11-26",
+      "valor": 120,
+      "locacaoId": "1",
+      "id": 1
+    }
+  ]
 }
