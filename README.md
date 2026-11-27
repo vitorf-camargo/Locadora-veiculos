@@ -68,17 +68,17 @@ Os dois comandos (`npm run server` e `npm run dev`) precisam ficar rodando ao me
 
 ## Telas
 
-### Cadastro de Marca
-<!-- adicionar print aqui -->
+### Listagem de Marcas
+![Listagem de Marcas](screenshots/marcas.png)
 
 ### Cadastro de Veiculo
-<!-- adicionar print aqui -->
+![Cadastro de Veiculo](screenshots/veiculo-form.png)
 
 ### Listagem de Locacoes
-<!-- adicionar print aqui -->
+![Listagem de Locacoes](screenshots/locacoes.png)
 
 ### Detalhe de uma Locacao
-<!-- adicionar print aqui -->
+![Detalhe de uma Locacao](screenshots/detalhe-locacao.png)
 
 ### Devolucao de Locacao
-<!-- adicionar print aqui -->
+![Devolucao de Locacao](screenshots/devolucao.png)
